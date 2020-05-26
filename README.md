@@ -1,4 +1,4 @@
-# Sport-betting-Over-Under-prediction-in-football-matches
+# Sport betting: Over/Under prediction in football matches
 
 Have you ever had to rip a sport bet at the 90th minute for an undesired goal? If the answer is yes, you may be interested
 in this project.
@@ -7,7 +7,8 @@ and eventually elaborate a betting strategy.
 How I did it: I implemented a Machine Learning algorithm (Logistic Regression) to predict the binary outcome
 (0 for under, 1 for over), and a Deep Neural Network to predict the probability associated with it
 (initially I assume that if the probability was less than 0.5 we would bet under, and if it was greater than 0.5 we would bet
-over).
+over). The dataset I used for training and testing is a collection of the results of the main European soccer championships
+from 2009 to 2016.
 Based on the results, at the end I modified this strategy a little bit in order to make it less risky (everything is explained
 in the project step by step, as well as the features used to make the predictions).
 Surprisingly, despite all the several factors that may influence a football match, I obtained an accuracy of 95%.
